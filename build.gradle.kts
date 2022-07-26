@@ -2,7 +2,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.6.10"
-    application
 }
 
 group = "ru.antonmarin"
@@ -13,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 }
 
 tasks.test {
@@ -22,8 +21,4 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "14"
-}
-
-application {
-    mainClass.set("MainKt")
 }
