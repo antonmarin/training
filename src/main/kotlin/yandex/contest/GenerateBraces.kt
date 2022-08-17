@@ -1,4 +1,4 @@
-package contest
+package yandex.contest
 
 import java.io.BufferedWriter
 import java.io.OutputStreamWriter

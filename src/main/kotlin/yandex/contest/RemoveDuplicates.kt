@@ -1,4 +1,4 @@
-package contest
+package yandex.contest
 
 /**
  * by some reason replacing mutable list with println() breaks this code

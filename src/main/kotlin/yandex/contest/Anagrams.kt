@@ -1,4 +1,4 @@
-package contest
+package yandex.contest
 
 //import java.io.*
 //val input = BufferedReader(InputStreamReader(System.`in`))
