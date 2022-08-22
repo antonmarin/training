@@ -1,8 +1,7 @@
-package contest
+package yandex.contest
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import yandex.contest.countAnagram
 
 internal class AnagramsTest {
     @Test

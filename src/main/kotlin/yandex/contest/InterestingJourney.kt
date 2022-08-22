@@ -7,7 +7,7 @@ import kotlin.collections.HashMap
 import kotlin.math.abs
 
 // WA in test 15
-val input = BufferedReader(InputStreamReader(System.`in`))
+private val input = BufferedReader(InputStreamReader(System.`in`))
 fun main() {
     val inputData = parseInput(input)
     val graph = Graph(inputData.cities, inputData.maxDistance)

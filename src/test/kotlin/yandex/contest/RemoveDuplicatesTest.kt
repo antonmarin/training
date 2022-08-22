@@ -1,10 +1,9 @@
-package contest
+package yandex.contest
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
-import yandex.contest.removeDuplicates
 import java.util.stream.Stream
 
 internal class RemoveDuplicatesTest {
